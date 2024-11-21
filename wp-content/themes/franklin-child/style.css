@@ -10,10 +10,6 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  franklin-child
 
- Color Pallet
- Primary -  blue - #27293e
- Secondary - orange - #f2aa00
- Accent Color - Whtie - #ffffff
  
 /*================================================================================================================
 Variables
@@ -302,7 +298,7 @@ Main Menu
 }
 
 #mainMenu>ul>li>a {
-	color: var(--link-color);
+	color: var(--primary-color);
 }
 
 #mainMenu>ul>li>a:hover {
@@ -494,7 +490,7 @@ sidebar Area
 
 #mainSidebar a:hover,
 .imagelist li a:hover span {
-	color: var(--link-hover-color);
+	color: var(--secondary-color);
 }
 
 /*================================================================================================================
